@@ -5,8 +5,13 @@ Router.configure
     Meteor.subscribe('posts')
 
 Router.map ->
+
   this.route('postsList', {path: '/'})
+
   this.route 'postPage',
     path: '/posts/:_id'
     data: ->
       Posts.findOne(this.params._id)
+
+  this.route 'postNew',
+    path: '/submit'
