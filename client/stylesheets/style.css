@@ -37,9 +37,15 @@ body {
 .post .post-content h3 span { font-weight: normal; font-size: 14px;
   display: inline-block;
   color: #aaaaaa; }
-.post .post-content p { margin: 0 } .post .discuss {
-                                      display: block; float: right; margin-top: 7px;
-                                    }
+
+.post .post-content p { margin: 0 }
+
+.post .discuss {
+  display: block;
+  float: right;
+  margin-top: 7px;
+}
+
 .comments {
   list-style-type: none;
   margin: 0; }
